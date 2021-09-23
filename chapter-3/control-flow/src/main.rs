@@ -48,9 +48,11 @@ fn main() {
     println!("the value is: {}", element);
   }
 
+  let intX = 1..5;
+
   println!("");
   println!("Now for loop over a range");
-  for num in (1..4).rev() {
+  for num in (intX).rev() {
     println!("{}!", num);
   }
   println!("LIFTOFF!!!");

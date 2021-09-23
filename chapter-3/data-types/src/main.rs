@@ -1,4 +1,5 @@
 use std::io;
+use std::mem;
 
 fn print_title(title: &str) {
   println!("");
@@ -83,6 +84,15 @@ fn main() {
   print_title("The Array Type");
   let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
   println!("Accessing array element 4 directly from onths: {}", months[3]);
+
+  let anotherMonth = ["January"];
+  let test_string = "edscrtfvygbuhnjidecrt5fvgybhujnimkoe4swrctfvyghniqwejriwqje9i1j23ik0ksa-0fdk-wl0dl-0324i0123-le-01l2-0ek-0";
+
+  println!("Mem size: {}", mem::size_of_val(&months[0]));
+  println!("Mem size testString: {}", mem::size_of_val(&test_string));
+
+  // let months: [String; 12] = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+  // println!("Accessing array element 4 directly from onths: {}", months[3]);
 
   println!("Please enter an array index to fetch the month, an index greater that 11 will result in a panic.");
 
