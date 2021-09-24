@@ -1,8 +1,8 @@
 # Rust The Book - My Progress
 
-Last Page: 3.5
+Last Page: 4.1
 
-![Progress](https://progress-bar.dev/11/?title=progress)
+![Progress](https://progress-bar.dev/13/?title=progress)
 
 Just a repo to tracking my progress through [Rust The Book](https://doc.rust-lang.org/book/).
 
