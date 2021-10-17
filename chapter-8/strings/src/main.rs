@@ -87,8 +87,4 @@ fn main() {
     println!("{}", b);
   }
   println!("");
-
-
-
-
 }
