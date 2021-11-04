@@ -1,7 +1,7 @@
 # Rust The Book - My Progress
 
 
-![Progress](https://progress-bar.dev/40/?scale=101&title=progress)
+![Progress](https://progress-bar.dev/41/?scale=101&title=progress)
 
 Just a repo to tracking my progress through [Rust The Book](https://doc.rust-lang.org/book/).
 
